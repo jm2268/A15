@@ -164,3 +164,6 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+@media only screen and (max-width: 479px) {
+	font-size:90%;
+}
