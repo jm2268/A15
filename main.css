@@ -54,7 +54,7 @@ header img {
 
 #nav_menu ul li a {
     display: block;
-    width: 16.66666%;
+    width: 16opx;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
@@ -71,6 +71,7 @@ header img {
 }
 #nav_menu ul ul li {
 	float: none;
+	width: 16.66666%;
 }
 #nav_menu ul li:hover > ul {display: block;}
 
