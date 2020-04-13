@@ -49,8 +49,10 @@ header img {
 #nav_menu ul {
 	list-style-type: none;
 	position: relative;
+	width: 100%;
 }
-#nav_menu ul li {float: left;}
+#nav_menu ul li {float: left;
+                 width: 20%;}
 
 #nav_menu ul li a {
     display: block;
