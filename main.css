@@ -70,7 +70,7 @@ header img {
 }
 #nav_menu ul ul li {
 	float: none;
-	width: 16.66666%;
+	width: 100%;
 }
 #nav_menu ul li:hover > ul {display: block;}
 
