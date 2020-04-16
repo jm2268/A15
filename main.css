@@ -85,8 +85,8 @@ main {
 }
 
 section {
-	width: 54.6875%;
-	float: right;
+	width: 45.3125%;
+	float: none;
 	padding: 0 2.08333% 2.08333% 2.08333%;
 }
 section h1 {
@@ -130,15 +130,15 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
-	max-width: 40%;
+	max-width: 30%;
 	min-width: 150px;
 }
 
 
 aside {
-	width: 22.39583%;
-	float: right;
-	padding: 0 0 2.08333% 2.08333%;
+	width: 77.60417%;
+	float: none;
+	padding: 0 2.08333% 2.08333%;
 }
 aside h2 {
 	color: #800000;
@@ -169,4 +169,9 @@ footer p {
 	section h1{ font-size:135%;}
 	section h2{ font-size:125%;}
 	aside h2{ font-size:125%;}
+}
+@media only screen and (max-width: 767px) {
+	header img{ float: none;
+	            position: center;}
+	
 }
